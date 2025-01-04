@@ -1,0 +1,60 @@
+/* Container */
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #4b5768;
+}
+
+/* Values */
+.currency-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.percentage-text {
+  font-weight: 500;
+  color: #007bff;
+}
+
+.divider {
+  font-weight: 500;
+  color: #a0abbb;
+}
+
+/* Toggle Switch */
+.toggle-switch {
+  display: flex;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f3f4f6;
+}
+
+/* Toggle Button */
+.toggle-button {
+  padding: 6px 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+/* Active State */
+.toggle-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Disabled Button */
+.toggle-button.disabled {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}

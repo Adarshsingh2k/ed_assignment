@@ -1,0 +1,223 @@
+/* Invoice Form Container */
+.invoice-form {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Upload Section */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px dashed #64748b;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  height: 844px;
+  width: 644px;
+}
+
+.upload-section h3 {
+  margin-bottom: 10px;
+}
+
+.upload-section input {
+  margin-top: 10px;
+}
+
+.upload-button {
+  padding: 10px 20px;
+
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Form Section */
+.form-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.form-section h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-section label {
+  color: #4b5768;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  display: block;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-section textarea {
+  height: 80px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.hd_img_pat {
+  background-color: #e8f3fc;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hd_sec_img {
+  width: 24px;
+  height: 24px;
+}
+.section-header h3 {
+  font-size: 24px;
+}
+
+.form-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.form-grid-layout label {
+  display: block;
+}
+
+/* Form Actions */
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-actions button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+.form-actions button:hover {
+  opacity: 0.9;
+}
+
+.currency-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* Ensures no border overlaps */
+  padding: 0 0px;
+  height: 40px; /* Matches height of other fields */
+}
+
+.currency-symbol,
+.currency-code {
+  /* Light gray background */
+  padding: 0 10px;
+  font-size: 14px;
+  color: #a0abbb;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.currency-symbol {
+  background-color: #e7eaee;
+  color: #4b5768;
+}
+
+.currency-input input {
+  border: none;
+  outline: none;
+  padding: 0 2px;
+  flex: 1; /* Takes available space */
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.imp {
+  color: red;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.d-flex-row-sb {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex-row-fs {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.d-flex-row-fs :first-child {
+  color: #007bff;
+  border-bottom: 1px solid #007bff;
+}
+.addExpense {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 36px;
+  width: 195px;
+  background-color: transparent;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: left;
+}
