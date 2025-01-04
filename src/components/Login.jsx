@@ -15,20 +15,27 @@ const Login = ({ setUserPresent }) => {
   };
 
   return (
-    <div>
-      <label>Email</label>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <label>Password</label>
-      <input
-        type="password"
-        value={pass}
-        onChange={(e) => setPass(e.target.value)}
-      />
-      <button onClick={handleLogin}>Login</button>
+    <div className="login">
+      <div className="login_item">
+        <label>Email</label>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </div>
+
+      <div className="login_item">
+        <label>Password</label>
+        <input
+          type="password"
+          value={pass}
+          onChange={(e) => setPass(e.target.value)}
+        />
+      </div>
+      <button className="log_button" onClick={handleLogin}>
+        Login
+      </button>
     </div>
   );
 };
